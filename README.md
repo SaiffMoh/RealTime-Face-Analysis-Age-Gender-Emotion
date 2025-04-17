@@ -11,12 +11,16 @@ A deep learning-based computer vision project that detects **emotion**, **gender
 ## 📂 Project Structure
 - `main.py`: Real-time inference script using OpenCV and TensorFlow/Keras
 - `emotiongenderagedet.ipynb`: Notebook used for training and saving the models
-- `models/`: Contains `.h5` trained model files for emotion, age, and gender
+- `models/`: Directory where trained models should be placed
 
 ## 🧠 Models
 - **Emotion Model**: CNN trained on FER2013
 - **Age & Gender Models**: MobileNetV2-based models trained on UTKFace dataset
-- Output saved as `.h5` and loaded in the real-time pipeline
+- Models are saved in `.h5` format and loaded during inference
+
+👉 **Download the trained models from this Google Drive link**:  
+📁 [Download models](https://drive.google.com/drive/folders/19KzbvM_0BJsuZu3LpLEWWkJQ0jflMnzh?usp=sharing)  
+Then place the downloaded files inside a `models/` folder in the project root.
 
 ## 📦 Requirements
 
